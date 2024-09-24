@@ -1,2 +1,2 @@
-#!/bin/bash
-antlr4 -Dlanguage=Go -package parser -visitor *.g4
+#!/bin/sh
+antlr -Dlanguage=Go -package parser -visitor *.g4
